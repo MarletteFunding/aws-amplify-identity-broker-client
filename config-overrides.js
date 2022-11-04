@@ -52,19 +52,19 @@ module.exports = function override(config, env) {
             };
                 break;
             case "devone": localConfig = {
-                "websiteName": "Website 1 (Dev)",
+                "websiteName": "VJ Broker Client",
                 "colorclass": "color1",
                 "flow": "PKCE",
-                "brokerUrl": "dev.d19evjq5d10l2l.amplifyapp.com",
-                "clientId": "61ksp5cgn88426mftft0bgjrfd"
+                "brokerUrl": "preprod.d3iexb27yynwap.amplifyapp.com",
+                "clientId": "psnc5qucrj1a16kmvjkbn320h"
             };
                 break;
             case "devtwo": localConfig = {
                 "websiteName": "Website 2 (Dev)",
                 "colorclass": "color2",
                 "flow": "PKCE",
-                "brokerUrl": "dev.d19evjq5d10l2l.amplifyapp.com",
-                "clientId": "1qvvl6e8qv2tjmv8bknragmn7u"
+                "brokerUrl": "preprod.d3iexb27yynwap.amplifyapp.com",
+                "clientId": "psnc5qucrj1a16kmvjkbn320h"
             };
                 break;
             default:
